@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo "$#PATH"
+=======
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
+>>>>>>> a97b29f (edits)
